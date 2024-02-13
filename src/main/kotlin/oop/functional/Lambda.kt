@@ -7,7 +7,21 @@ fun main() {
     println(lambda1())
     println("=============")
     println(lambda2("Academy"))
-
+    println("==============")
+    println(greet("Rama"))
+    println("==============")
+    printMesssage("AIUEO")
+    println("==============")
+    val ranges = 1.rangeTo(10) step 3
+    ranges.forEach { value ->
+        println("value is $value!")
+    }
+    println("==============")
+    val ranges2 = 1.rangeTo(10) step 3
+    ranges.forEachIndexed { index, value ->
+        println("value $value with index $index")
+    }
+}
 
 }
 
@@ -22,3 +36,10 @@ val lambda2: (String) -> String = { value ->
     "$first $value"
 
 }
+
+val greet: (String) -> String = { name: String ->
+    "Hello $name"
+}
+
+val printMesssage = {message: String -> println(message)}
+
