@@ -21,9 +21,19 @@ fun main() {
     ranges.forEachIndexed { index, value ->
         println("value $value with index $index")
     }
+
+    /*
+        forEachIndexed memiliki dua argumen, yakni index yang merupakan indeks dari tiap nilai dan value yang merupakan nilai tunggal yang dicakup oleh ranges itu sendiri. Jika kita hanya ingin menggunakan argumen index, kita bisa mengubah argumen value menjadi _ seperti berikut.
+     */
+
+    /*
+         val ranges = 1.rangeTo(10) step 3
+    ranges.forEachIndexed { index, _ ->
+        println("index $index")
+    }
+     */
 }
 
-}
 
 val lambda1 = {
     val first = "Dicoding"
