@@ -33,5 +33,5 @@ fun main() {
         append("lambda ")
     }
 
-    println(message)
+
 }
