@@ -1,4 +1,4 @@
-package com.dicoding.kotlin.oop.functional
+package com.dicoding.kotlin.functional
 
 //recursive function adl sebuah mekanisme dmn fungsi digunakan didalam fungsi itu sendiri
 

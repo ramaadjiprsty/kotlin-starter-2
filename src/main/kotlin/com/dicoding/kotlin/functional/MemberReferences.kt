@@ -1,4 +1,4 @@
-package com.dicoding.kotlin.oop.functional
+package com.dicoding.kotlin.functional
 
 val sum2: (Int, Int, Int ) -> Int = ::count
 fun count(valueA: Int, valueB: Int, valueC: Int) : Int {

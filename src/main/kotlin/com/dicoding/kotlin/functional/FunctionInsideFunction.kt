@@ -1,4 +1,4 @@
-package com.dicoding.kotlin.oop.functional
+package com.dicoding.kotlin.functional
 
 //inner function berguna untuk mengatasi penulisan kode yang berulang, terlalu panjang atau susah untuk dibaca
 

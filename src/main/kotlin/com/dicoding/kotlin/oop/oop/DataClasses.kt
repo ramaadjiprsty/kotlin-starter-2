@@ -1,4 +1,4 @@
-package com.dicoding.kotlin
+package com.dicoding.kotlin.oop.oop
 
 class user(val name: String, val age: Int) {
     override fun toString(): String {

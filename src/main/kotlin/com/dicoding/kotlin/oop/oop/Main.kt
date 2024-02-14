@@ -1,4 +1,4 @@
-package com.dicoding.kotlin
+package com.dicoding.kotlin.oop.oop
 
 enum class Rainbow(val color : String) {
     RED("Red"),

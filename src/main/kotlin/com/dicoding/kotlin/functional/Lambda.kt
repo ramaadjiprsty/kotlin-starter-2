@@ -1,4 +1,4 @@
-package com.dicoding.kotlin.oop.functional
+package com.dicoding.kotlin.functional
 
 fun main() {
     var sum: (Int) -> Int = {value -> value+value}

@@ -1,4 +1,4 @@
-package com.dicoding.kotlin.oop.functional
+package com.dicoding.kotlin.functional
 
 /*
     Pada dasarnya sebuah lambda yang mempunyai receiver mirip seperti extension functions, yang memungkinkan kita untuk mengakses anggota objek receiver dari dalam extension. Pada lambda, receiver ditentukan pada saat menentukan tipe deklarasi. Contohnya perhatikan kode yang tidak menggunakan DSL di bawah ini:
